@@ -39,7 +39,7 @@ butEquals.addEventListener("click", function(){
 let answer = document.querySelector("#screen").innerHTML;
 let answerArr = answer.split("")
 let last = answerArr[answerArr.length-1]
-if (last === "+" || last === "-" || last === "x" || last === "/") {
+if (last === "+" || last === "-" || last === "*" || last === "/") {
   document.querySelector("#screen").innerHTML = "ERROR"
 }
 else if (answer === "07734") {
